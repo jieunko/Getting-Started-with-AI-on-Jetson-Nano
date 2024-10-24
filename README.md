@@ -27,3 +27,17 @@ sh ./installTorch-1.11TorchVisiion-0.12.sh
 ```
 
 ![jetson torch result](./imgs/torch_install_result.PNG)
+
+Install ultralytics, ffmpeg-python and tree
+```
+pip3 install ultralytics ffmpeg-python6
+sudo apt install tree
+```
+
+We will test installed torch and yolo with Tory-Hwang's code
+```
+git clone https://github.com/Tory-Hwang/Jetson-Nano2\
+
+cd ./Jetson-Nano/V8
+pip3 -r requirements.txt
+```
