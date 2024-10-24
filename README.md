@@ -13,6 +13,7 @@ conda activate base // activate
 jetson_release // check
 ```
 ![jetson environment](./imgs/jetson_env_result.PNG)
+
 Create an environment for yolo and activate
 ```
 conda create -n yolo python=3.8 -y
@@ -24,3 +25,5 @@ Install pytorch 1.11 and torchvision 0.12
 ```
 sh ./installTorch-1.11TorchVisiion-0.12.sh
 ```
+
+![jetson environment](./imgs/torch_install_result.PNG.PNG)
