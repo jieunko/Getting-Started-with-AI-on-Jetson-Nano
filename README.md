@@ -26,4 +26,4 @@ Install pytorch 1.11 and torchvision 0.12
 sh ./installTorch-1.11TorchVisiion-0.12.sh
 ```
 
-![jetson environment](./imgs/torch_install_result.PNG.PNG)
+![jetson torch result](./imgs/torch_install_result.PNG)
